@@ -1,0 +1,9 @@
+function showHeart() {
+    const heartMessage = document.getElementById("heartMessage");
+
+    // Trần Thị Hậu
+    heartMessage.classList.toggle("hidden");
+
+    // Thêm hiệu ứng xoay khi hiển thị thông điệp
+    heartMessage.style.animation = "rotateHeart 2s ease-out forwards";
+}
